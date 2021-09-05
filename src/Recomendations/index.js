@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
-function Recomendations() {
+import Main from './components/Main';
+
+const Recomendations = () => {
+  const wrapper = useRef(null);
+
   return (
-    <main>
+    <Main ref={wrapper}>
       holi
-    </main>
+    </Main>
   );
 };
 
