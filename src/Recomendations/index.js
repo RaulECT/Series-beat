@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import BetterScroll from '@better-scroll/core';
 
-import {fakeSeries} from './fakeSeries';
+import fakeSeries from './fakeSeries';
 import useLayout from '../hooks/useLayout';
 
 import Main from './components/Main';
