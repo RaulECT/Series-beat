@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const Aside = styled.aside`
   --maxItemsPerRow: ${props => props.maxItemsPerRow};
-  --size: ${props => props.size};
-  --width: ${props => props.width};
+  --size: ${props => props.size}px;
+  --width: ${props => props.width}px;
   --height: ${props => props.height};
   display: grid;
   grid-template-columns: repeat(var(--maxItemsPerRow), var(--size));

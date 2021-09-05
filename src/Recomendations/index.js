@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import {fakeSeries} from './fakeSeries';
 
 import Main from './components/Main';
+import Aside from './components/Aside';
 
 const Recomendations = () => {
   const wrapper = useRef(null);
@@ -11,7 +12,14 @@ const Recomendations = () => {
 
   return (
     <Main ref={wrapper}>
-      holi
+      <Aside
+        maxItemsPerRow={maxItemsPerRow}
+        size={currentSize}
+        width={currentSize * maxItemsPerRow}
+        height={Math.ceil(fakeSeries.length / maxItemsPerRow) * currentSize}
+      >
+        holi
+      </Aside>
     </Main>
   );
 };
