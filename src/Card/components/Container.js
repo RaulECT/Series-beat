@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Overlay from "./Overlay";
 
 const Container = styled.div`
   display: flex;
@@ -11,7 +12,7 @@ const Container = styled.div`
   will-change: transform;
   border: none;
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.3);
-  &.show-overlay .overlay {
+  &.show-overlay ${Overlay} {
     opacity: 1;
   }
 `;
