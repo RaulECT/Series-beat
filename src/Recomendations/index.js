@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import BetterScroll from '@better-scroll/core';
 
 import fakeSeries from './fakeSeries';
@@ -7,9 +7,12 @@ import useLayout from '../hooks/useLayout';
 import Main from './components/Main';
 import Aside from './components/Aside';
 import Card from '../Card';
+import SerieDetails from '../SerieDetails';
 
 const Recomendations = () => {
   const {getCenter, distanceBetweenPoints} = useLayout();
+  const [serie, setSerie] = useState({});
+  const [isModalOpen, setModalOpen] = useState(false);
   const wrapper = useRef(null);
   const currentSize = 200;
   const maxItemsPerRow = 13;
@@ -54,6 +57,13 @@ const Recomendations = () => {
     }
   });
 
+  const onCloseModal = () => setModalOpen(false);
+
+  const onSelectSerie = (serie) => {
+    setModalOpen(true);
+    setSerie(serie);
+  };
+
   return (
     <Main ref={wrapper}>
       <Aside
@@ -62,8 +72,20 @@ const Recomendations = () => {
         customWidth={currentSize * maxItemsPerRow}
         customHeight={Math.ceil(fakeSeries.length / maxItemsPerRow) * currentSize}
       >
-        {fakeSeries.map((serie) => <Card key={serie.id} data={serie} size={currentSize} />)}
+        {fakeSeries.map((serie) =>
+          <Card 
+            key={serie.id}
+            data={serie}
+            size={currentSize}
+            onClick={() => onSelectSerie(serie)}
+          />)}
       </Aside>
+
+      <SerieDetails
+        serie={serie}
+        isOpen={isModalOpen}
+        onClose={onCloseModal}
+      />
     </Main>
   );
 };

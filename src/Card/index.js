@@ -4,7 +4,7 @@ import Container from './components/Container';
 import Overlay from './components/Overlay';
 import Info from './components/Info';
 
-const Card = ({data, size}) => {
+const Card = ({data, size, onClick}) => {
   const node = useRef(null);
 
   useEffect(() => {
@@ -19,6 +19,7 @@ const Card = ({data, size}) => {
     <Container
       ref={node}
       className="card"
+      onClick={onClick}
     >
       <Overlay>
         <Info>
