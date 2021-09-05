@@ -4,21 +4,22 @@ import {fakeSeries} from './fakeSeries';
 
 import Main from './components/Main';
 import Aside from './components/Aside';
+import Card from '../Card';
 
 const Recomendations = () => {
   const wrapper = useRef(null);
-  const currentSize = 150;
+  const currentSize = 200;
   const maxItemsPerRow = 13;
 
   return (
     <Main ref={wrapper}>
       <Aside
         maxItemsPerRow={maxItemsPerRow}
-        size={currentSize}
-        width={currentSize * maxItemsPerRow}
-        height={Math.ceil(fakeSeries.length / maxItemsPerRow) * currentSize}
+        itemsSize={currentSize}
+        customWidth={currentSize * maxItemsPerRow}
+        customHeight={Math.ceil(fakeSeries.length / maxItemsPerRow) * currentSize}
       >
-        holi
+        {fakeSeries.map((serie) => <Card key={serie.id} data={serie} size={currentSize} />)}
       </Aside>
     </Main>
   );
