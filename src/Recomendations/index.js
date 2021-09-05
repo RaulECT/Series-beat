@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
+import BetterScroll from '@better-scroll/core';
 
 import {fakeSeries} from './fakeSeries';
 
@@ -10,6 +11,13 @@ const Recomendations = () => {
   const wrapper = useRef(null);
   const currentSize = 200;
   const maxItemsPerRow = 13;
+
+  useEffect(() => {
+    if (wrapper) {
+      const cards = Array.from(wrapper.current.querySelectorAll('.card'));
+      console.log('[cards]', cards);
+    }
+  });
 
   return (
     <Main ref={wrapper}>
