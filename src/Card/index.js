@@ -16,7 +16,10 @@ const Card = ({data, size}) => {
   });
 
   return (
-    <Container ref={node}>
+    <Container
+      ref={node}
+      className="card"
+    >
       <Overlay>
         <Info>
           <strong>{data.name}</strong>
