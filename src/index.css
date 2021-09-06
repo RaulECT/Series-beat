@@ -38,7 +38,11 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background: linear-gradient(
+    to bottom right,
+    #db7093,
+    #b8a7b2
+  );
 }
 
 h1,
