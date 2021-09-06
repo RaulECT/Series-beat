@@ -3,67 +3,119 @@
     {
       "id": 1,
       "name": "Pasión por la limpieza",
-      "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTg7IPmpfFHt-jPJ3HjHwTAwKu7FY_iHMwHE3nEn6UcrgcnCGld"
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTg7IPmpfFHt-jPJ3HjHwTAwKu7FY_iHMwHE3nEn6UcrgcnCGld",
+      "description": "El dueño de una empresa de limpieza con fobia a los gérmenes y una desaliñada empleada de la compañía viven un inesperado romance que los llevará a sanar viejas heridas.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81393475?s=i&trkid=13747225"
+      }
     },
     {
       "id": 2,
       "name": "Jardín de meteoros",
-      "imageUrl": "http://pm1.narvii.com/7028/6195b443556c5c8f43153d15c65384ce9c01740fr1-540-704v2_uhq.jpg"
+      "imageUrl": "http://pm1.narvii.com/7028/6195b443556c5c8f43153d15c65384ce9c01740fr1-540-704v2_uhq.jpg",
+      "description": "Shancai cursa el primer año en la universidad Ming De con varias dificultades, lo que enoja al popular rompecorazones Daoming Si.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81005504?s=i&trkid=13747225"
+      }
     },
     {
       "id": 3,
       "name": "Recuéstate sobre mi hombro",
-      "imageUrl": "https://www.nacionrex.com/__export/1619561097179/sites/debate/img/2021/04/27/put-your-head-on-my-shoulder-drama-chino_1_crop1619561062825.jpg_1902800913.jpg"
+      "imageUrl": "https://www.nacionrex.com/__export/1619561097179/sites/debate/img/2021/04/27/put-your-head-on-my-shoulder-drama-chino_1_crop1619561062825.jpg_1902800913.jpg",
+      "description": "Una estudiante de Contabilidad a punto de graduarse y sin rumbo termina viviendo con un futuro genio de la Física que le hace olvidar la rutina.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81200229?s=i&trkid=13747225"
+      }
     },
     {
       "id": 4,
       "name": "Mi romance secreto",
-      "imageUrl": "https://2.bp.blogspot.com/-_kw1wG96yDU/WUgZi8PQ5OI/AAAAAAAAOso/DYmpEk2HBkQv0bIzPdYR9ua0NI2q2g53QCLcBGAs/s1600/my%2Bsecret%2Bromance%2Bposter%2B1.jpg"
+      "imageUrl": "https://2.bp.blogspot.com/-_kw1wG96yDU/WUgZi8PQ5OI/AAAAAAAAOso/DYmpEk2HBkQv0bIzPdYR9ua0NI2q2g53QCLcBGAs/s1600/my%2Bsecret%2Bromance%2Bposter%2B1.jpg",
+      "description": "El nuevo jefe de una nutricionista resulta ser el chico con el que se acostó una sola vez. Ahora todo es un malentendido tras otro.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81170092?s=i&trkid=13747225"
+      }
     },
     {
       "id": 5,
       "name": "I hear you",
-      "imageUrl": "https://image.tmdb.org/t/p/w780/vZsZET9B0kEy1BXXHCZNPKhxvHA.jpg"
+      "imageUrl": "https://image.tmdb.org/t/p/w780/vZsZET9B0kEy1BXXHCZNPKhxvHA.jpg",
+      "description": "Un reality show abre las puertas del amor entre una simpática y joven actriz en ciernes y un enigmático lutier de violines.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81087124?s=i&trkid=13747225"
+      }
     },
     {
       "id": 6,
       "name": "La vida racional",
-      "imageUrl": "https://image.tmdb.org/t/p/original/sm4EjnI4tvO71iRiT3BPxsaXWMB.jpg"
+      "imageUrl": "https://image.tmdb.org/t/p/original/sm4EjnI4tvO71iRiT3BPxsaXWMB.jpg",
+      "description": "Una treintañera centrada en su carrera debe enfrentarse a un entorno laboral feroz, un triángulo amoroso y una madre irritante.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81452916?s=i&trkid=13747225"
+      }
     },
     {
       "id": 7,
-      "name": "La vida racional",
-      "imageUrl": "https://pm1.narvii.com/7455/bdcfe109a9eee48f31143ce2d200d31feff73c23r1-800-450v2_hq.jpg"
+      "name": "Find yourself",
+      "imageUrl": "https://pm1.narvii.com/7455/bdcfe109a9eee48f31143ce2d200d31feff73c23r1-800-450v2_hq.jpg",
+      "description": "Una ejecutiva treintañera con poca experiencia en el amor retoma el contacto con un hombre de su pasado y se relaciona con un joven del trabajo.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81137134?s=i&trkid=13747225"
+      }
     },
     {
       "id": 8,
       "name": "Love 020",
-      "imageUrl": "https://6.vikiplatform.com/image/ba66053f9a8248869ad113ab712f9b89.jpg"
+      "imageUrl": "https://6.vikiplatform.com/image/ba66053f9a8248869ad113ab712f9b89.jpg",
+      "description": "Después de que su 'esposo' en un juego online la abandona, una experta en informática recibe una nueva propuesta del jugador más destacado.",
+      "links": {
+        "netflix": "https://www.netflix.com/title/81005091?s=i&trkid=13747225"
+      }
     },
     {
       "id": 9,
       "name": "Love scenery",
-      "imageUrl": "https://img.betaseries.com/azJbwEepka7ZSoRvg_WCQs57uNc=/600x900/smart/https%3A%2F%2Fpictures.betaseries.com%2Ffonds%2Fposter%2F0e9a40ad742be84f3813e6f68906708b.jpg"
+      "imageUrl": "https://img.betaseries.com/azJbwEepka7ZSoRvg_WCQs57uNc=/600x900/smart/https%3A%2F%2Fpictures.betaseries.com%2Ffonds%2Fposter%2F0e9a40ad742be84f3813e6f68906708b.jpg",
+      "description": "Una historia de inspiración sobre el crecimiento mutuo y el amor sigue a una cantante y a un estudiante de cuarto año de informática.",
+      "links": {
+        "other": "https://www.youtube.com/playlist?list=PL0S3J0cIQ244nNItiKW2eW25S8NZcN67w"
+      }
     },
     {
       "id": 10,
       "name": "True beauty",
-      "imageUrl": "https://www.nacionrex.com/__export/1607982686671/sites/debate/img/2020/12/14/true-beauty-dorama-eunwoo-estreno_crop1607981474332.jpg_423682103.jpg"
+      "imageUrl": "https://www.nacionrex.com/__export/1607982686671/sites/debate/img/2020/12/14/true-beauty-dorama-eunwoo-estreno_crop1607981474332.jpg_423682103.jpg",
+      "description": "Después de ver vídeos de belleza en Internet, una tímida fanática del cómic domina el arte del maquillaje se convierte en la chica más bonita de su escuela, literalmente, de la noche a la mañana.",
+      "links": {
+        "other": "https://doramasflix.co/doramas/true-beauty"
+      }
     },
     {
       "id": 11,
       "name": "Mi pequeña felicidad",
-      "imageUrl": "https://cdn.doramasmp4.com/storage/resize/backdrops/450x250@f03e48dedb7c1773060c0cd67bdcc2bd.jpg"
+      "imageUrl": "https://cdn.doramasmp4.com/storage/resize/backdrops/450x250@f03e48dedb7c1773060c0cd67bdcc2bd.jpg",
+      "description": "Una historia de romance urbano en el lugar de trabajo sigue a un pasante legal y un cirujano que se reencuentran como adultos. Tan uniformemente emparejados como están, una relación comienza a florecer.",
+      "links": {
+        "other": "https://doramasflix.co/doramas/my-little-happiness"
+      }
     },
     {
       "id": 12,
       "name": "Que le ocurre a la secretaria Kim",
-      "imageUrl": "https://kpoplat.com/wp-content/uploads/2021/04/KPOPLAT-Whats-Wrong-With-Secretary-Kim-750x450.jpg"
+      "imageUrl": "https://kpoplat.com/wp-content/uploads/2021/04/KPOPLAT-Whats-Wrong-With-Secretary-Kim-750x450.jpg",
+      "description": "Un ejecutivo narcisista se involucra de manera romántica con su secretaria luego de mantener una relación profesional durante nueve años.",
+      "links": {
+        "other": "https://doramasflix.co/doramas/whats-wrong-with-secretary-kim"
+      }
     },
     {
       "id": 13,
       "name": "Las ecuaciones del amor",
-      "imageUrl": "https://6.vikiplatform.com/image/33c1e8999b87410093c91743a6669e88.jpg?x=b&a=0x0"
+      "imageUrl": "https://6.vikiplatform.com/image/33c1e8999b87410093c91743a6669e88.jpg?x=b&a=0x0",
+      "description": "Una estudiante universitaria de literatura aficionada a las novelas detectivescas, pasa sus días sumergida en las páginas de sus misterios favoritos, siempre ansiosa por saber lo que pasa a continuación.",
+      "links": {
+        "other": "https://www.youtube.com/playlist?list=PLMX26aiIvX5r05LCWIQMWFAv-XeSC-_Ec"
+      }
     }
   ]
 }

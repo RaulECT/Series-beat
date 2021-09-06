@@ -24,6 +24,7 @@ const Card = ({data, size, onClick}) => {
       <Overlay>
         <Info>
           <strong>{data.name}</strong>
+          <p className="description">{data.description}</p>
         </Info>
       </Overlay>
     </Container>

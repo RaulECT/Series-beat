@@ -6,6 +6,11 @@ const Info = styled.section`
   justify-content: center;
   flex: 1;
   max-width: 100%;
+
+  .description {
+    font-size: 0.5rem;
+    color: #fff;
+  }
 `;
 
 export default Info;
