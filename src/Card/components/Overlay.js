@@ -6,7 +6,7 @@ const Overlay = styled.div`
   flex-direction: column;
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -19,6 +19,19 @@ const Overlay = styled.div`
   span {
     margin-top: 0.125rem;
     font-size: 0.5rem;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .links .label {
+    margin: 0 0 5px 0;
+    color: #fff;
+    font-size: 8px;
   }
 `;
 
